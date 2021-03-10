@@ -17,10 +17,10 @@ const connect = function() {
     console.log("Successfully connected to game server");
     console.log(connect)
       
-    conn.write("Move: up",(connect) => {
-      console.log("you moved up!")
-      console.log(connect)
-    })
+    // conn.write("Move: up",(connect) => {
+    //   console.log("you moved up!")
+    //   console.log(connect)
+    // })
   })
   return conn;
 }
