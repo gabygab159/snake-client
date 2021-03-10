@@ -25,6 +25,8 @@ const setupInput = function(conn) {
        } else if (key === '\u0064') {
          connection.write("Move: right");
          console.log("You moved right")
+       } else if (key === '\u0066') {
+         connection.write("Say: Respect")
        }
      })
   }
